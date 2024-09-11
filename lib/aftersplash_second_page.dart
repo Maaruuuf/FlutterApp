@@ -47,7 +47,7 @@ class SecondPage extends StatelessWidget {
       child: ElevatedButton(
         onPressed: onPressed,
         style: ElevatedButton.styleFrom(
-          primary: Colors.blueGrey.shade900,
+          foregroundColor: Colors.blueGrey.shade900,
           padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20), // Adjust button size
         ),
         child: Text(

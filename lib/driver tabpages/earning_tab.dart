@@ -66,7 +66,7 @@ class _DriverEarningPageState extends State<DriverEarningPage> {
             SizedBox(height: 20),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                primary: Colors.limeAccent,
+                foregroundColor: Colors.limeAccent,
               ),
               onPressed: () {
                 // Handle any additional actions when the button is pressed

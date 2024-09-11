@@ -125,7 +125,7 @@ class _NotificationDialogBoxState extends State<NotificationDialogBox> {
                       Navigator.pop(context);
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.red,
+                      foregroundColor: Colors.red,
                     ),
                     child: Text(
                       "Cancel".toUpperCase(),
@@ -140,7 +140,7 @@ class _NotificationDialogBoxState extends State<NotificationDialogBox> {
                       acceptRideRequest(context);
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.green,
+                      foregroundColor: Colors.green,
                     ),
                     child: Text(
                       "Accept".toUpperCase(),

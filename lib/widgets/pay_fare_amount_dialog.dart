@@ -47,7 +47,7 @@ class _PayFareAmountDialogState extends State<PayFareAmountDialog> {
               children: [
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    primary: isCashOnHandSelected
+                    foregroundColor: isCashOnHandSelected
                         ? Colors.limeAccent
                         : Colors.white,
                   ),
@@ -68,7 +68,7 @@ class _PayFareAmountDialogState extends State<PayFareAmountDialog> {
                 ),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    primary: !isCashOnHandSelected
+                    foregroundColor: !isCashOnHandSelected
                         ? Colors.limeAccent
                         : Colors.white,
                   ),
@@ -122,7 +122,7 @@ class _PayFareAmountDialogState extends State<PayFareAmountDialog> {
               padding: EdgeInsets.all(20),
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.limeAccent,
+                  foregroundColor: Colors.limeAccent,
                 ),
                 onPressed: () {
                   if (isCashOnHandSelected) {
